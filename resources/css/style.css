@@ -48,12 +48,28 @@ header {
     display: flex;
     justify-content: center;
 }
+
+.google-store {
+    width: 600px;
+}
+/* .google-store:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+} */
 .github a {
     color: #fff;
 }
 
 .dev-feature {
     margin-bottom: 5px;
+}
+
+.dev {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 img {
     width: 150px;
@@ -64,6 +80,11 @@ img {
     height: auto;
     margin-bottom: 15px;
     border-radius: 50%;
+}
+.dev img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
 }
 
 footer {
