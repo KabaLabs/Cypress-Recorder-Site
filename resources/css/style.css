@@ -5,7 +5,7 @@
 }
 
 html {
-    color: #555;
+    color: #222;
     font-family: 'Lato', 'Arial', sans-serif;
     font-size: 20px;
     font-weight: 300;
@@ -52,11 +52,7 @@ header {
 .google-store {
     width: 600px;
 }
-/* .google-store:hover {
-    opacity: 1;
-    -webkit-transform: scale(1.03);
-    transform: scale(1.03);
-} */
+
 .github a {
     color: #fff;
 }
@@ -71,11 +67,12 @@ header {
     justify-content: center;
     align-items: center;
 }
-img {
+.dev img {
     width: 150px;
     height: 150px;
 }
 .dev img {
+    opacity: 0.7;
     width: 60%%;
     height: auto;
     margin-bottom: 15px;
