@@ -1,86 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="vendors/css/normalize.css">
-  <link rel="stylesheet" href="resources/css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
-  <title>Cypress-Recorder</title>
+  <title>Cypress Recorder</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="resources/css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/35675dfa7e.js" crossorigin="anonymous"></script>
+
+
 </head>
+
 <body>
-  <header>
-      <h1>Cypress Recorder</h1>
-  </header>
-
-  <!-- Section Intro -->
-  <section class="intro">
-      <div class="hero">
-          <h2>Record element Interaction and generate Cypress scripts</h2>
-          <img src="resources/images/app.png" alt="">
+  <nav class="navbar navbar-expand-lg fixed-top justify-content-between">
+    <h1 class="navbar-brand">Cypress Recorder</h1>
+    <a href="https://github.com/KabaLabs/Cypress-Recorder" target="_blank" class="nav-link">
+      <i class="fab fa-github fa-2x"></i>
+    </a>
+  </nav>
+  <div class="container-fluid anchor">
+    <div id="main" class="row pt-5 justify-content-between">
+      <div id="logo" class="col-md-4 col-4 mb-5 mb-md-0 mx-auto">
+        <img id="cypress-cone" src="./resources/images/cypress-01.svg">
       </div>
-
-      <div class="cypress">
-         <h3>Download it <a href="https://chrome.google.com/webstore/detail/cypress-recorder/glcapdcacdfkokcmicllhcjigeodacab">here</a></h3>
-
-         <!-- <img class="google-store" src="resources/images/images.jpeg" alt="Ay Carumba"> -->
+      <div id="info" class="col-md-6 row align-items-center pl-5 order-md-first">
+        <h2>A tool to record element interaction and generate Cypress scripts</h2>
+        <p>Cypress Recorder is a Chrome developer tool that records user interaction within a web application and
+          generates Cypress scripts to allow the developer to replicate that particular session. This will speed up your
+          development cycle by facilitating the creation of unit and integration tests. <br><br>
+        Download Cypress Recorder from the Chrome Web Store. That's it! Once you see our icon at the upper-right of
+          your browser window, you are ready to start generating Cypress scripts.</p>
+        <a href="https://chrome.google.com/webstore/detail/cypress-recorder/glcapdcacdfkokcmicllhcjigeodacab"
+          target="_blank">
+          <button type="button" class="btn btn-primary">Get Cypress Recorder Here</button>
+        </a>
       </div>
+    </div>
+    <div id="how-to" class="row">
+      
 
-      <div class="github">
-          <h3>Star us on Github!</h3>
-          <p class="star-us">We hope you enjoy our testing tool! Star us on Github!
-              <!-- Place this tag where you want the button to render. -->
-              <!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/KabaLabs/Cypress-Recorder" data-icon="octicon-star" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
-
+      <div id="list" class="col-md-6 mt-5">
+        <h4>How to use Cypress Recorder</h4>
+        <ul>
+          <li>Open the extension and click 'Start Recording' to begin recording actions.</li>
+          <li>Click links, sumbit forms, etc.</li>
+          <li>Check your saved actions by opening the popup at any time.</li>
+          <li>Click 'Stop Recording' to stop recording. From there, you will have the option to resume recording, reset, or copy your generated code to your clipboard.</li>
+        </ul>
 
       </div>
+      <div id="screenshot" class="col-md-6 order-md-first mx-auto mt-5">
+          <img src="resources/images/recording.png" class="img-fluid">
+        </div>
 
-  </section>
+    </div>
+  </div>
 
-  <!-- Developers Sections -->
-
-
-           <section class="developers">
-
-               <div class="heading">
-                   <h3>The Development Team</h3>
-               </div>
-
-                <div class="dev-team">
-                    <div class="row-1">
-
-                        <div class="dev">
-                            <img src="resources/images/abbey.png" alt="">
-                            <p class="name">Abbey</p>
-                            <a href="https://github.com/abbeycampbell">@abbeycampbell</a>
-                        </div>
-
-                        <div class="dev">
-                            <img src="resources/images/ken.png" alt="">
-                            <p class="name">Ken</p>
-                            <a href="https://github.com/gxcad">@gxcad</a>
-                        </div>
-
-                        <div class="dev">
-                            <img src="resources/images/adam.png" alt="">
-                            <p class="name">Adam</p>
-                             <a href="https://github.com/Nehtaro">@Nehtaro</a>
-                        </div>
-
-                        <div class="dev">
-                            <img src="resources/images/brad.jpeg" alt="">
-                            <p class="name">Brad</p>
-                            <a href="https://github.com/bkmorgan3">@bkmorgan3</a>
-                        </div>
-                    </div>
-                </div>
-           </section>
-    <footer>
-        <h6>OS Labs</h6>
-    </footer>
-    <!-- Place this tag in your head or just before your close body tag. -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
+
 </html>
