@@ -6,8 +6,8 @@
 
 html {
     color: #222;
-    font-family: 'Lato', 'Arial', sans-serif;
-    font-size: 20px;
+    font-family: 'Roboto', 'Lato', 'Arial', sans-serif;
+    font-size: 14px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
     background-color: #fff;
@@ -16,10 +16,75 @@ html {
 header {
     background-color: rgb(49, 158, 107);
     display: flex;
-    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+#cypress-logo {
+    height: 45px;
+    width: 45px;
+}
+
+#title {
+    flex-grow: 1;
+    margin-left: 15px;
+}
+
+#github-icon {
+    justify-self: flex-end;
+    color: whitesmoke;
+}
+
+#main-content {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 75 75 0 75;
+}
+
+#how-to {
 
 }
-.hero {
+
+
+
+#download-button {
+    background-color: rgb(49, 158, 107);
+    border: 1px solid whitesmoke;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: whitesmoke;
+    line-height: 8px;
+}
+#download-button:hover {
+    background-color: whitesmoke;
+    color: rgb(49, 158, 107);
+    transition: all .15s ease 0s
+}
+
+
+
+.left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* background-color: blue;  */
+}
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* background-color: red;  */
+}
+
+
+
+/* .hero {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,7 +138,7 @@ header {
 }
 .dev img {
     opacity: 0.7;
-    width: 60%%;
+    width: 60%;
     height: auto;
     margin-bottom: 15px;
     border-radius: 50%;
@@ -88,4 +153,4 @@ footer {
     background-color: #d3d3d3;
     display: flex;
     justify-content: center;
-}
+} */
