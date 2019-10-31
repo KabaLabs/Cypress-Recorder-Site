@@ -1,0 +1,28 @@
+* {
+  font-family: Roboto;
+}
+
+.navbar{ background: #319e6b;}
+
+.navbar-brand{ color: #f4f4f4;}
+
+.nav-link{ 
+  color: #fff!important;
+}
+
+.navbar-collapse{ justify-content: flex-end;}
+
+.navbar-toggler{ background:#fff !important;}
+
+.anchor {
+  margin-top: 67px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  border-color: #fff !important;
+  color:  #fff !important;
+  background-color: #319e6b !important;
+}
